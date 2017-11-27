@@ -1,6 +1,9 @@
+# Ignore everything
+*
 
-*.class
-*.idea
-*.iml
-bin
-out
+# But not these files...
+!.gitignore
+!*.java
+
+# ...even if they are in subdirectories
+!*/
